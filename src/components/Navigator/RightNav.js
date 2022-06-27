@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 const Ul = styled.ul`
   list-style: none;
@@ -8,13 +7,15 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
 
   li {
-    padding: 30px 30px;
-    font-family: Telegraf Ultrabold;
+    padding: 20px 30px;
+    font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
     color: white;
     text-transform: uppercase;
+    font-size: 1rem;
   }
   li:hover {
-      color: #a31c46;
+      color: #266d9b;
   }
   a {
       text-decoration: none;
@@ -42,9 +43,9 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <Link to="/"><li>INICIO</li></Link>
-      <Link to="/Nosotros"><li>NOSOTROS</li></Link>
-      <Link to="/Contacto"><li>CONTACTO</li></Link>
+      <a href="#Nosotros"><li>Nosotros</li></a>
+      <a href="#Galeria"><li>Galería</li></a>
+      <a href="#Contacto"><li>Contactanos</li></a>
     </Ul>
   )
 }

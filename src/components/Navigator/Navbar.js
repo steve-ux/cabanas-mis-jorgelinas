@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-//import Logo from "../../image/logo.png";
+import Logo from "../../assets/Logo.png";
 
 const Nav = styled.nav`
   height: 13vh;
@@ -12,11 +12,17 @@ const Nav = styled.nav`
   z-index: 20;
 
   .logo {
-    padding: 0.5px 30px;
+    padding: 0.8px 40px;
   }
   .logoNav {
-    width: 7vw;
-    padding: 12px;
+    width: 5vw;
+    padding: 10px;
+    filter: grayscale(100%);
+  }
+  .logoNav:hover {
+    width: 5vw;
+    padding: 10px;
+    filter: none;
   }
   @media (max-width: 759px) {
     .logoNav {
@@ -38,10 +44,10 @@ const Nav = styled.nav`
 const Navbar = () => {
   return (
     <Nav className="navigator">
-      {/* <div className="logo">
-        <img className="logoNav" src={Logo} alt="Logo envases Los Andes" />
-      </div> */}
       <Burger />
+      <div className="logo">
+        <img className="logoNav" src={Logo} alt="Logo Cabañas Jorgelinas" />
+      </div>
     </Nav>
   );
 };
