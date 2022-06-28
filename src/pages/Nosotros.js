@@ -44,7 +44,7 @@ function Nosotros() {
           Contamos con <span>3 cabañas</span> doble piso con capacidad de hasta 10
           personas, equipadas con calefacción a gas/leña, televisión satelital,
           internet WiFi, piscina, churrasquera, garage. Además cada vivienda
-          cuenta con un amplio comedor, cocina, heladera, baños equipados y
+          cuenta con un amplio comedor, cocina, heladera, microondas, baños equipados y
           patio exterior. Por último, en la cuadra podrás encontrar una
           proveeduría-restaurant con todo lo necesario para tus compras.
           Conocenos o <span>contactate</span> para saber más de nuestras

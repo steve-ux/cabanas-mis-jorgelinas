@@ -3,6 +3,10 @@ import Nosotros from "./Nosotros";
 import Galeria from "../components/Navigator/Galeria";
 import Videoloop from "../assets/Potrerillos.mp4";
 import Logo from "../assets/Logo.png";
+import Icono1 from "../assets/wifi.png";
+import Icono2 from "../assets/antena.png";
+import Icono3 from "../assets/calefaccion.png";
+import Icono4 from "../assets/piscina.png";
 
 function Home() {
   return (
@@ -33,6 +37,35 @@ function Home() {
       </div>
       <Nosotros/>
       <Galeria/>
+      <div className="iconos-valores">
+        <h3>Nuestros servicios principales</h3>
+        <div className="container-iconos">
+          <div>
+            <p className="texto-primeroT">
+              <img className="imagenC" src={Icono1} alt="Internet WiFi" />
+            </p>
+            <p className="text-icons">Internet WiFi</p>
+          </div>
+          <div>
+            <p className="texto-primeroT">
+              <img className="imagenC" src={Icono2} alt="Antena satelital" />
+            </p>
+            <p className="text-icons">Televisión satelital</p>
+          </div>
+          <div>
+            <p className="texto-primeroT">
+              <img className="imagenC" src={Icono3} alt="compromiso" />
+            </p>
+            <p className="text-icons">Calefacción</p>
+          </div>
+          <div>
+            <p className="texto-primeroT">
+              <img className="imagenC" src={Icono4} alt="tecnología" />
+            </p>
+            <p className="text-icons">Piscina</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
