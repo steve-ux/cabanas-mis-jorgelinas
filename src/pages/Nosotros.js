@@ -36,8 +36,8 @@ function Nosotros() {
           Ubicados en la cadena montañosa{" "}
           <span>Cordón del Plata, en Los Andes</span>, a 80km de la ciudad de{" "}
           <span>Mendoza</span>, vas a ver paisajes únicos, tranquilidad
-          inigualable y la flora y fauna del valle. Somos tu mejor opción para
-          tus vacaciones de verano o invierno, o fines de semana de relax.
+          inigualable y la flora y fauna del valle. Podés llegar en vehículo o colectivos desde la terminal de Mendoza. Somos tu mejor opción para
+          tus vacaciones de verano, invierno, o fines de semana relax.
         </p>
         <p data-aos="fade-up"
         data-aos-duration="600">
