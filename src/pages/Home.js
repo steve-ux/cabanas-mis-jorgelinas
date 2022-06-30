@@ -1,6 +1,7 @@
 import NavBar from "../components/Navigator/Navbar";
 import Nosotros from "./Nosotros";
 import Contacto from "./Contacto";
+import Footer from "../components/Footer";
 import Galeria from "../components/Navigator/Galeria";
 import Videoloop from "../assets/Potrerillos.mp4";
 import Logo from "../assets/Logo.png";
@@ -78,6 +79,7 @@ function Home() {
           </div>
       </div>
       <Contacto/>
+      <Footer/>
     </>
   );
 }
