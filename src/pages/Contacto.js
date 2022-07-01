@@ -1,4 +1,7 @@
 import "../form.scss";
+import Correo from "../assets/email.png";
+import Cellphone from "../assets/cellphone.png";
+import Maps from "../assets/map.png";
 
 function Contacto() {
   return (
@@ -38,8 +41,8 @@ function Contacto() {
                 id="tel"
                 type="tel"
                 class="form-field animation a3"
-                placeholder="* Teléfono con característica"
-                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                placeholder="* Teléfono ejemplo: '2613342095'"
+                pattern="[0-9]{10}"
                 title="Máximo 10 dígitos sin caracteres: ejemplo 2613342095"
               />
               <textarea
@@ -65,22 +68,25 @@ function Contacto() {
           </div>
           <div className="infoContacto">
             <p>
-              Correo:{" "}
-              <a href="mailto:cabanasjorgelinas@yahoo.com.ar">
+            <a href="mailto:cabanasjorgelinas@yahoo.com.ar">
+              <img src={Correo} alt="icono correo" width="50"/> <br></br>{" "}
+              
                 cabanasjorgelinas@yahoo.com.ar
               </a>
             </p>
             <p>
-              Teléfono: <a href="tel:2613342095">2613342095</a>
+            <a href="tel:2613342095">
+            <img src={Cellphone} alt="icono correo" width="50"/><br></br>2613342095</a>
             </p>
             <p>
-              Ubicación:{" "}
-              <a
+            <a
                 href="https://g.page/MisJorgelinas?share"
                 target="_blank"
                 rel="noreferrer"
               >
-                Valle del Sol, Potrerillos, Luján de Cuyo - Mendoza, Argentina
+            <img src={Maps} alt="icono correo" width="50"/><br></br>{" "}
+              
+                Valle del Sol, Potrerillos (Luján de Cuyo) - Mendoza, Argentina
               </a>{" "}
             </p>
           </div>

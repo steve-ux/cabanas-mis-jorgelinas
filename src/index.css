@@ -315,9 +315,26 @@ background-color: #266d9b;
 .infoContacto {
   font-family: var(--primary-font);
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6rem;
+}
+.infoContacto p {
+  text-align: center;
+  font-size: small;
+}
+.infoContacto img {
+  filter: invert(100%);
+}
+.infoContacto img:hover {
+  filter: none;
 }
 .infoContacto a {
-  color: #fed700;
+  color: var(--secondary-color);
+}
+.infoContacto a:hover {
+  color: rgb(255, 255, 255);
 }
 
 .containerContacto h3 {
