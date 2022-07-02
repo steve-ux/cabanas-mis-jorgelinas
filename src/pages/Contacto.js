@@ -25,6 +25,7 @@ function Contacto() {
               <input
                 required
                 id="full_name"
+                name="Nombre"
                 type="text"
                 class="form-field animation a4"
                 placeholder="* Nombre"
@@ -32,6 +33,7 @@ function Contacto() {
               <input
                 required
                 id="email"
+                name="Correo"
                 type="email"
                 class="form-field animation a3"
                 placeholder="* Correo"
@@ -39,6 +41,7 @@ function Contacto() {
               <input
                 required
                 id="tel"
+                name="Teléfono"
                 type="tel"
                 class="form-field animation a3"
                 placeholder="* Teléfono (ejemplo: 2613342095)"
@@ -57,7 +60,7 @@ function Contacto() {
                 placeholder="* Tu consulta"
               />
               <button class="animation a6">ENVIAR</button>
-              <input type="hidden" name="_next" value="https://.com/Enviado" />
+              <input type="hidden" name="_next" value="https://cabañasjorgelinas.com/Enviado" />
               <input
                 type="hidden"
                 name="_subject"

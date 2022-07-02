@@ -38,7 +38,7 @@ body {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 750px) {
 
   .container {
     display: flex;
@@ -52,7 +52,7 @@ body {
     background-color: rgba(0, 0, 0, 0.366);
     transition: 1s;
     height: 100%;
-    width: 10% !important;
+    width: 100% !important;
     background-size: cover;
     filter: grayscale(0%);
     padding: 1rem;
@@ -61,6 +61,7 @@ body {
   }
   .left {
     margin-left: 0rem;
+    width: 100% !important;
   }
   .form {
     display: flex;
