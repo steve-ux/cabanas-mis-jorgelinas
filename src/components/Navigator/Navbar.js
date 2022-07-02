@@ -24,9 +24,14 @@ const Nav = styled.nav`
     padding: 10px;
     filter: none;
   }
-  @media (max-width: 759px) {
+  @media (max-width: 999px) {
     .logoNav {
-      width: 12vw;
+      width: 7vw;
+    }
+  }
+  @media (max-width: 768px) {
+    .logoNav {
+      width: 10vw;
     }
   }
   @media (max-width: 520px) {

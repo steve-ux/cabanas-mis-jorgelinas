@@ -41,7 +41,7 @@ function Contacto() {
                 id="tel"
                 type="tel"
                 class="form-field animation a3"
-                placeholder="* Teléfono ejemplo: '2613342095'"
+                placeholder="* Teléfono (ejemplo: 2613342095)"
                 pattern="[0-9]{10}"
                 title="Máximo 10 dígitos sin caracteres: ejemplo 2613342095"
               />
@@ -69,14 +69,14 @@ function Contacto() {
           <div className="infoContacto">
             <p>
             <a href="mailto:cabanasjorgelinas@yahoo.com.ar">
-              <img src={Correo} alt="icono correo" width="50"/> <br></br>{" "}
+              <img src={Correo} alt="icono correo" width="40"/> <br></br>{" "}
               
                 cabanasjorgelinas@yahoo.com.ar
               </a>
             </p>
             <p>
             <a href="tel:2613342095">
-            <img src={Cellphone} alt="icono correo" width="50"/><br></br>2613342095</a>
+            <img src={Cellphone} alt="icono correo" width="40"/><br></br>2613342095</a>
             </p>
             <p>
             <a
@@ -84,7 +84,7 @@ function Contacto() {
                 target="_blank"
                 rel="noreferrer"
               >
-            <img src={Maps} alt="icono correo" width="50"/><br></br>{" "}
+            <img src={Maps} alt="icono correo" width="40"/><br></br>{" "}
               
                 Valle del Sol, Potrerillos (Luján de Cuyo) - Mendoza, Argentina
               </a>{" "}

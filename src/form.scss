@@ -35,9 +35,54 @@ body {
   background-size: cover;
   filter: grayscale(0%);
   padding: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
+@media (max-width: 570px) {
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    padding: 2rem;
+  }
+  .right {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.366);
+    transition: 1s;
+    height: 100%;
+    width: 10% !important;
+    background-size: cover;
+    filter: grayscale(0%);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    margin-left: 0rem;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .header > h2 {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .header > h4 {
+    margin-top: 10px;
+    font-size: .5rem !important;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: rgba(213, 213, 213, 0.768);
+  }
+}
 
 
 .header > h2 {

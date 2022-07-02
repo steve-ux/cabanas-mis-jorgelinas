@@ -45,6 +45,15 @@ body {
   text-align: center;
   color: #ffffff;
 }
+@media (max-width: 570px) {
+  .parrafoHome {
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #ffffff;
+  }
+}
 
 /* Botón reservar */
 
@@ -128,6 +137,19 @@ body {
 .containerNosotros p {
   margin-bottom: 1rem;
 }
+@media (max-width: 1360px) {
+  .containerNosotros p {
+    margin-bottom: 1rem;
+    font-size: .9rem;
+  }
+}
+@media (max-width: 570px) {
+  .dique {
+    
+    padding: .1rem;
+    width: 70vw;
+  }
+}
 .titleNosotros {
   text-align: center;
   font-family: var(--primary-font);
@@ -173,6 +195,18 @@ span {
   width: 30%;
   display: inline-block;
   margin-top: 2rem;
+}
+@media (max-width: 570px) {
+  .item {
+    width: 90%;
+    display: inline-block;
+    margin-top: 2rem;
+  }
+  .wrapper {
+    width: 100%;
+    padding: 0 2rem;
+    text-align: center;
+  }
 }
 .item .polaroid:before {
   content: '';
@@ -263,6 +297,18 @@ span {
   justify-content: space-around;
   margin-top: 3rem;
 }
+
+@media (max-width: 570px) {
+  .container-iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+  .btn-12 {
+    margin-top: 5rem;
+  }
+}
 .texto-primeroT {
   color: black;
   filter: drop-shadow(3px 5px 20px rgb(255, 255, 255));
@@ -312,17 +358,31 @@ background-color: #266d9b;
 .containerFormulario {
   display: flex;
 }
+@media (max-width: 570px) {
+  .containerContacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .containerContacto h3 {
+    font-size: 1.5rem !important;
+  }
+  .containerFormulario {
+    display: flex;
+    width:100%;
+  }
+}
 .infoContacto {
   font-family: var(--primary-font);
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 .infoContacto p {
   text-align: center;
-  font-size: small;
+  font-size: .9rem;
 }
 .infoContacto img {
   filter: invert(100%);
