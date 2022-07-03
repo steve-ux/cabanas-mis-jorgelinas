@@ -19,7 +19,7 @@ function Contacto() {
             </div>
             <form
               class="form"
-              action="https://formsubmit.co/exe.universal@gmail.com"
+              action="https://formsubmit.co/cabanasjorgelinas@yahoo.com.ar"
               method="POST"
             >
               <input
