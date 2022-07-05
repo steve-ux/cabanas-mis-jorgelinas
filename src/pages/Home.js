@@ -10,6 +10,12 @@ import Icono2 from "../assets/antena.png";
 import Icono3 from "../assets/calefaccion.png";
 import Icono4 from "../assets/piscina.png";
 import Icono5 from "../assets/info.png";
+import Cabaña3 from "../assets/cordondelplata.jpg";
+import Cabaña3dos from "../assets/tunelcacheuta.jpg";
+import Cabaña3tres from "../assets/penitentes.JPG";
+import Cabaña3cuatro from "../assets/Cabaña 2/arroyo.jpg";
+import Cabaña3cinco from "../assets/vallecitos.jpg";
+import Cabaña3seis from "../assets/dique.jpg";
 
 function Home() {
   return (
@@ -78,6 +84,45 @@ function Home() {
             <a href="https://api.whatsapp.com/send?phone=5492613342095&text=Hola!%20Visité%20su%20web%20y%20quisiera%20conocer%20más%20sobre%20sus%20cabañas" target="_blank" rel="noreferrer"><button class="custom-btn btn-12">WhatsApp</button></a>
           </div>
       </div>
+      <h3 className="subtitleCabañas">Lugares de interés</h3>
+      <div class="wrapper">
+  <div class="item">
+    <div class="polaroid"><img src={Cabaña3} alt="Cordón del Plata"/>
+      <div class="caption">Cordón del Plata</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="polaroid"><img src={Cabaña3dos} alt="Túnel de Cacheuta"/>
+      <div class="caption">Túnel de Cacheuta</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="polaroid"><img src={Cabaña3tres} alt="Ski Penitentes"/>
+      <div class="caption">Centro de esquí Penitentes</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="polaroid"><img src={Cabaña3cuatro} alt="Arroyo Las Mulas"/>
+      <div class="caption">Arroyo Las Mulas</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="polaroid"><img src={Cabaña3cinco} alt="Vallecitos"/>
+      <div class="caption">Vallecitos</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="polaroid"><img src={Cabaña3seis} alt="Dique Potrerillos"/>
+      <div class="caption">Dique Potrerillos</div>
+    </div>
+  </div>
+  </div>
+  <br></br>
       <Contacto/>
       <Footer/>
     </>

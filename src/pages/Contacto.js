@@ -7,6 +7,7 @@ function Contacto() {
   return (
     <div className="containerContacto">
       <h3 id="Contacto">Consultas y reservas</h3>
+      <h4 className="sub">Evitá estafas, estos son los únicos medios oficiales de comunicación.</h4>
       <div className="containerFormulario">
         <div class="container right">
           <div class="left">

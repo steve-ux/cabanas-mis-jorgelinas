@@ -3,13 +3,13 @@ import Cabaña1dos from "../../assets/Cabaña 1/cocina.jpg";
 import Cabaña1tres from "../../assets/Cabaña 1/cama.jpg";
 import Cabaña1cuatro from "../../assets/Cabaña 1/cama2.jpg";
 import Cabaña1cinco from "../../assets/Cabaña 1/comedor.jpg";
-import Cabaña1seis from "../../assets/Cabaña 1/baño.jpg";
+import Cabaña1seis from "../../assets/Cabaña 1/garage.jpg";
 import Cabaña2 from "../../assets/Cabaña 2/2.jpg";
 import Cabaña2dos from "../../assets/Cabaña 2/cocina.jpg";
 import Cabaña2tres from "../../assets/Cabaña 2/cama matrimonial.jpg";
 import Cabaña2cuatro from "../../assets/Cabaña 2/cuchetas.jpg";
 import Cabaña2cinco from "../../assets/Cabaña 2/comedor.jpg";
-import Cabaña2seis from "../../assets/Cabaña 2/arroyo.jpg";
+import Cabaña2seis from "../../assets/Cabaña 2/tv.jpg";
 import Cabaña3 from "../../assets/Cabaña 3/3.jpg";
 import Cabaña3dos from "../../assets/Cabaña 3/cocina.jpg";
 import Cabaña3tres from "../../assets/Cabaña 3/cama matrimonial.jpg";
@@ -55,8 +55,8 @@ function Galeria() {
   </div>
 
   <div class="item">
-    <div class="polaroid"><img src={Cabaña1seis} alt="Baños limpios"/>
-      <div class="caption">Baños</div>
+    <div class="polaroid"><img src={Cabaña1seis} alt="Churrasquera"/>
+      <div class="caption">Churrasquera</div>
     </div>
   </div>
 
@@ -93,8 +93,8 @@ function Galeria() {
   </div>
 
   <div class="item">
-    <div class="polaroid"><img src={Cabaña2seis} alt="Arroyo Las Mulas"/>
-      <div class="caption">A° Las Mulas - Patio trasero</div>
+    <div class="polaroid"><img src={Cabaña2seis} alt="TV"/>
+      <div class="caption">TV</div>
     </div>
   </div>
 
