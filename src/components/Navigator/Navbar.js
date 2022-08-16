@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/Mis-Jorgelinas-logo-transparente-white.png";
 
 const Nav = styled.nav`
   height: 13vh;
@@ -17,12 +17,10 @@ const Nav = styled.nav`
   .logoNav {
     width: 5vw;
     padding: 10px;
-    filter: grayscale(100%);
   }
   .logoNav:hover {
     width: 5vw;
     padding: 10px;
-    filter: none;
   }
   @media (max-width: 999px) {
     .logoNav {

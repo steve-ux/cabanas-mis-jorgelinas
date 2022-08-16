@@ -4,7 +4,7 @@ import Contacto from "./Contacto";
 import Footer from "../components/Footer";
 import Galeria from "../components/Navigator/Galeria";
 import Videoloop from "../assets/Potrerillos.mp4";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Mis-Jorgelinas-logo-transparente.png";
 import Icono1 from "../assets/wifi.png";
 import Icono2 from "../assets/antena.png";
 import Icono3 from "../assets/calefaccion.png";
@@ -31,7 +31,7 @@ function Home() {
               <img
                 src={Logo}
                 className="logo-header"
-                width="220"
+                width="320"
                 alt="Logotipo de Cabañas Jorgelinas"
               />
             </h1>
