@@ -15,7 +15,7 @@ const Ul = styled.ul`
     font-size: 1rem;
   }
   li:hover {
-      color: #266d9b;
+      color: red;
   }
   a {
       text-decoration: none;

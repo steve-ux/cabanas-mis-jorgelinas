@@ -47,7 +47,7 @@ function Nosotros() {
           cuenta con un amplio comedor, cocina, heladera, microondas, baños equipados y
           patio exterior. Por último, en la cuadra podrás encontrar una
           proveeduría-restaurant con todo lo necesario para tus compras.
-          Conocenos o <span><a href="#Contacto">contactate</a></span> para saber más de nuestras
+          Conocenos o contactate haciendo click <span><a href="#Contacto" style={{"color":"red"}}>aquí</a></span> para saber más de nuestras
           cabañas.
         </p>
       </div>
