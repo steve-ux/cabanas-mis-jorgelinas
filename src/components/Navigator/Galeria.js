@@ -15,7 +15,10 @@ import Cabaña3dos from "../../assets/Cabaña 3/cocina.jpg";
 import Cabaña3tres from "../../assets/Cabaña 3/cama matrimonial.jpg";
 import Cabaña3cuatro from "../../assets/Cabaña 3/camas.jpg";
 import Cabaña3cinco from "../../assets/Cabaña 3/patio.jpg";
-import Cabaña3seis from "../../assets/Cabaña 3/piscina.jpg";
+import Cabaña3seis from "../../assets/Cabaña 3/churrasquera.jpg";
+import Piscina1 from "../../assets/piscina.jpg";
+import Piscina2 from "../../assets/piscina2.jpg";
+import Piscina3 from "../../assets/piscina3.jpg";
 
 function Galeria() {
     return (
@@ -132,13 +135,29 @@ function Galeria() {
 
   <div class="item">
     <div class="polaroid"><img src={Cabaña3seis} alt="Piscina"/>
-      <div class="caption">Piscina</div>
+      <div class="caption">Churrasquera</div>
     </div>
   </div>
 
 </div>
+<h3 className="subtitleCabañas">Piscina (Cabaña 2 y 3)</h3>
 
-        </div>
+<div class="item">
+    <div class="polaroid"><img src={Piscina1} alt="Camas individuales"/>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="polaroid"><img src={Piscina3} alt="Patio trasero"/>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="polaroid"><img src={Piscina2} alt="Piscina"/>
+    </div>
+  </div>
+
+</div>
     );
     
 }
