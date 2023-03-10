@@ -14,7 +14,7 @@ function Footer() {
               
           </div>
               <p className="text-footer">Cabañas Mis Jorgelinas © <span id="get-current-year">{new Date().getFullYear()}</span> | Mendoza, AR</p>
-              <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">DevFreelancer</a></span></p>
+              <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">PixelPeak</a></span></p>
           </div>
         </footer>
 
